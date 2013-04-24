@@ -3,7 +3,6 @@
 <table class="table table-striped">
   <thead>
     <tr>
-      <th><%= model_class.human_attribute_name(:id) %></th>
       <th><%= model_class.human_attribute_name(:name) %></th>
       <th><%= model_class.human_attribute_name(:content) %></th>
       <th><%= model_class.human_attribute_name(:created_at) %></th>
@@ -13,10 +12,9 @@
   <tbody>
     <% @templates.each do |template| %>
       <tr>
-        <td><%= link_to template.id, template_path(template) %></td>
-        <td><%= template.name %></td>
-        <td><%= template.content %></td>
-        <td><%=l template.created_at %></td>
+        <td><%= link_to template.name, template_path(template)%></td>
+        <td><%= template.content.html_safe %></td>
+        <td><%= template.created_at %></td>
         <td>
           <%= link_to t('.edit', :default => t("helpers.links.edit")),
                       edit_template_path(template), :class => 'btn btn-mini' %>
