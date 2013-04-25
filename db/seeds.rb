@@ -7,4 +7,5 @@
 #   Mayor.create(name: 'Emanuel', city: cities.first)
 
 
-  sign_up_template = Template.create([{name: 'Reset password', content: }])
+  content =  File.read('config/mails_templates/sign_up_confirm.txt')
+  sign_up_template = Template.create([{name: 'Reset password',  content: content}])
