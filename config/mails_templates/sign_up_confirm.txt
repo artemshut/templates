@@ -1,2 +1,0 @@
-<p>Hello, <strong>User</strong>! You are registrate now on <a href="http://github.com">http://github.com</a>.
-Your email is <a href="mailto:artemshut@gmail.com">artemshut@gmail.com</a>. Congratulate you!</p>
