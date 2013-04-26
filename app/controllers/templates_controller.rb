@@ -1,6 +1,7 @@
 class TemplatesController < ApplicationController
   # GET /templates
   # GET /templates.json
+
   def index
     @templates = Template.all
     respond_to do |format|
