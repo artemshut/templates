@@ -12,14 +12,14 @@
     <file path="/_form.html.erb" changelist="6ea10b0f-05b0-44ba-8b4a-f2dfd19a5ca4" time="1366809066812" ignored="false" />
     <file path="/template.rb" changelist="6ea10b0f-05b0-44ba-8b4a-f2dfd19a5ca4" time="1366992459104" ignored="false" />
     <file path="/show.html.erb" changelist="6ea10b0f-05b0-44ba-8b4a-f2dfd19a5ca4" time="1366810229322" ignored="false" />
-    <file path="/index.html.erb" changelist="6ea10b0f-05b0-44ba-8b4a-f2dfd19a5ca4" time="1366810683059" ignored="false" />
+    <file path="/index.html.erb" changelist="6ea10b0f-05b0-44ba-8b4a-f2dfd19a5ca4" time="1366997895641" ignored="false" />
     <file path="/template_controller.rb" changelist="6ea10b0f-05b0-44ba-8b4a-f2dfd19a5ca4" time="1366800472736" ignored="false" />
     <file path="/20130424104907_drop_templates_table.rb" changelist="6ea10b0f-05b0-44ba-8b4a-f2dfd19a5ca4" time="1366800560093" ignored="false" />
     <file path="$PROJECT_DIR$/test/functional/templates_controller_test.rb" changelist="6ea10b0f-05b0-44ba-8b4a-f2dfd19a5ca4" time="1366800731956" ignored="false" />
     <file path="/application.html.erb" changelist="6ea10b0f-05b0-44ba-8b4a-f2dfd19a5ca4" time="1366811289960" ignored="false" />
-    <file path="/templates_controller.rb" changelist="6ea10b0f-05b0-44ba-8b4a-f2dfd19a5ca4" time="1366803046213" ignored="false" />
+    <file path="/templates_controller.rb" changelist="6ea10b0f-05b0-44ba-8b4a-f2dfd19a5ca4" time="1366998851002" ignored="false" />
     <file path="/new.html.erb" changelist="6ea10b0f-05b0-44ba-8b4a-f2dfd19a5ca4" time="1366894953230" ignored="false" />
-    <file path="/edit.html.erb" changelist="6ea10b0f-05b0-44ba-8b4a-f2dfd19a5ca4" time="1366804485703" ignored="false" />
+    <file path="/edit.html.erb" changelist="6ea10b0f-05b0-44ba-8b4a-f2dfd19a5ca4" time="1367155240560" ignored="false" />
     <file path="/_ckedit.erb" changelist="6ea10b0f-05b0-44ba-8b4a-f2dfd19a5ca4" time="1366805643683" ignored="false" />
     <file path="/application.rb" changelist="6ea10b0f-05b0-44ba-8b4a-f2dfd19a5ca4" time="1366893706481" ignored="false" />
     <file path="/user.rb" changelist="6ea10b0f-05b0-44ba-8b4a-f2dfd19a5ca4" time="1366997679066" ignored="false" />
@@ -30,15 +30,17 @@
     <file path="/custom_mail.rb" changelist="6ea10b0f-05b0-44ba-8b4a-f2dfd19a5ca4" time="1366891016113" ignored="false" />
     <file path="/custom_mailer.rb" changelist="6ea10b0f-05b0-44ba-8b4a-f2dfd19a5ca4" time="1366891512163" ignored="false" />
     <file path="/welcome_mail.rb" changelist="6ea10b0f-05b0-44ba-8b4a-f2dfd19a5ca4" time="1366891921554" ignored="false" />
-    <file path="/welcome_email.rb" changelist="6ea10b0f-05b0-44ba-8b4a-f2dfd19a5ca4" time="1366996092108" ignored="false" />
+    <file path="/welcome_email.rb" changelist="6ea10b0f-05b0-44ba-8b4a-f2dfd19a5ca4" time="1366999239262" ignored="false" />
     <file path="/welcome_email.html.erb" changelist="6ea10b0f-05b0-44ba-8b4a-f2dfd19a5ca4" time="1366993994562" ignored="false" />
     <file path="/config.ru" changelist="6ea10b0f-05b0-44ba-8b4a-f2dfd19a5ca4" time="1366893788137" ignored="false" />
     <file path="/environment.rb" changelist="6ea10b0f-05b0-44ba-8b4a-f2dfd19a5ca4" time="1366893819883" ignored="false" />
-    <file path="/welcome_mailer.rb" changelist="6ea10b0f-05b0-44ba-8b4a-f2dfd19a5ca4" time="1366997585093" ignored="false" />
+    <file path="/welcome_mailer.rb" changelist="6ea10b0f-05b0-44ba-8b4a-f2dfd19a5ca4" time="1367155901666" ignored="false" />
     <file path="/confirmation_instructions.html.erb" changelist="6ea10b0f-05b0-44ba-8b4a-f2dfd19a5ca4" time="1366994900665" ignored="false" />
     <file path="/20130425125744_add_name_to_users.rb" changelist="6ea10b0f-05b0-44ba-8b4a-f2dfd19a5ca4" time="1366894775046" ignored="false" />
     <file path="/confirmation_instructions.txt" changelist="6ea10b0f-05b0-44ba-8b4a-f2dfd19a5ca4" time="1366991171108" ignored="false" />
     <file path="/reset_password.txt" changelist="6ea10b0f-05b0-44ba-8b4a-f2dfd19a5ca4" time="1366994935046" ignored="false" />
+    <file path="/reset_password_instructions.html.erb" changelist="6ea10b0f-05b0-44ba-8b4a-f2dfd19a5ca4" time="1367143761976" ignored="false" />
+    <file path="/templates_helper.rb" changelist="6ea10b0f-05b0-44ba-8b4a-f2dfd19a5ca4" time="1367155332415" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -61,7 +63,7 @@
       <file leaf-file-name="welcome_email.html.erb" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/views/welcome_mailer/welcome_email.html.erb">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="0" column="23" selection-start="0" selection-end="173" vertical-scroll-proportion="-0.0">
+            <state line="2" column="42" selection-start="173" selection-end="173" vertical-scroll-proportion="-1.25">
               <folding />
             </state>
           </provider>
@@ -85,19 +87,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="index.html.erb" pinned="false" current="true" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/app/views/templates/index.html.erb">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="27" column="8" selection-start="1074" selection-end="1074" vertical-scroll-proportion="0.47147846">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="welcome_email.rb" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/config/initializers/welcome_email.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="8" column="37" selection-start="322" selection-end="322" vertical-scroll-proportion="0.0">
+            <state line="8" column="32" selection-start="317" selection-end="317" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -106,16 +99,16 @@
       <file leaf-file-name="reset_password_instructions.html.erb" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/views/welcome_mailer/reset_password_instructions.html.erb">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="-0.0">
+            <state line="0" column="23" selection-start="14" selection-end="23" vertical-scroll-proportion="-0.0">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="welcome_mailer.rb" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="welcome_mailer.rb" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/app/mailers/welcome_mailer.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="8" column="52" selection-start="366" selection-end="366" vertical-scroll-proportion="0.0">
+            <state line="23" column="13" selection-start="767" selection-end="767" vertical-scroll-proportion="0.39071348">
               <folding />
             </state>
           </provider>
@@ -124,7 +117,7 @@
       <file leaf-file-name="templates_controller.rb" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/controllers/templates_controller.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="38" column="45" selection-start="774" selection-end="774" vertical-scroll-proportion="0.0">
+            <state line="79" column="4" selection-start="2019" selection-end="2019" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -133,7 +126,16 @@
       <file leaf-file-name="edit.html.erb" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/views/templates/edit.html.erb">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="-0.0">
+            <state line="10" column="0" selection-start="218" selection-end="218" vertical-scroll-proportion="-6.25">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="templates_helper.rb" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/helpers/templates_helper.rb">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="2" column="0" selection-start="24" selection-end="24" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -142,7 +144,7 @@
       <file leaf-file-name="_form.html.erb" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/views/templates/_form.html.erb">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="14" column="4" selection-start="512" selection-end="512" vertical-scroll-proportion="-8.75">
+            <state line="18" column="58" selection-start="716" selection-end="716" vertical-scroll-proportion="-11.25">
               <folding />
             </state>
           </provider>
@@ -158,10 +160,6 @@
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/app/views/devise/registrations/new.html.erb" />
-        <option value="$PROJECT_DIR$/app/views/devise/registrations/edit.html.erb" />
-        <option value="$PROJECT_DIR$/app/views/devise/sessions/new.html.erb" />
-        <option value="$PROJECT_DIR$/app/controllers/templates_controller.rb" />
         <option value="$PROJECT_DIR$/Gemfile" />
         <option value="$PROJECT_DIR$/config/mails_templates/confirmation_instructions.txt" />
         <option value="$PROJECT_DIR$/app/models/template.rb" />
@@ -169,11 +167,15 @@
         <option value="$PROJECT_DIR$/config/mails_templates/confirmation_instructions.html.erb" />
         <option value="$PROJECT_DIR$/config/mails_templates/reset_password.txt" />
         <option value="$PROJECT_DIR$/db/seeds.rb" />
-        <option value="$PROJECT_DIR$/config/initializers/welcome_email.rb" />
         <option value="$PROJECT_DIR$/app/views/welcome_mailer/reset_password.html.erb" />
-        <option value="$PROJECT_DIR$/app/mailers/welcome_mailer.rb" />
         <option value="$PROJECT_DIR$/app/models/user.rb" />
         <option value="$PROJECT_DIR$/app/views/templates/index.html.erb" />
+        <option value="$PROJECT_DIR$/app/controllers/templates_controller.rb" />
+        <option value="$PROJECT_DIR$/config/initializers/welcome_email.rb" />
+        <option value="$PROJECT_DIR$/app/views/templates/edit.html.erb" />
+        <option value="$PROJECT_DIR$/app/helpers/templates_helper.rb" />
+        <option value="$PROJECT_DIR$/app/views/welcome_mailer/reset_password_instructions.html.erb" />
+        <option value="$PROJECT_DIR$/app/mailers/welcome_mailer.rb" />
       </list>
     </option>
   </component>
@@ -209,6 +211,8 @@
       <sortByType />
     </navigator>
     <panes>
+      <pane id="RailsProjectView" />
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -456,6 +460,10 @@
               <option name="myItemId" value="app" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="helpers" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
           </PATH>
           <PATH>
             <PATH_ELEMENT>
@@ -475,10 +483,22 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="templates" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="templates" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="app" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
         </subPane>
       </pane>
-      <pane id="Scope" />
-      <pane id="RailsProjectView" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -787,10 +807,9 @@
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32903227" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.2594009" sideWeight="0.99889135" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.26258764" sideWeight="0.99889135" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
@@ -799,6 +818,7 @@
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32903227" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32903227" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
@@ -866,13 +886,6 @@
     <breakpoint-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/config/routes.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Gemfile">
       <provider selected="true" editor-type-id="text-editor">
         <state line="36" column="10" selection-start="752" selection-end="752" vertical-scroll-proportion="0.0">
@@ -882,77 +895,27 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/app/views/devise/registrations/new.html.erb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="5" column="57" selection-start="150" selection-end="240" vertical-scroll-proportion="-3.125">
-          <folding />
-        </state>
+        <state line="5" column="57" selection-start="150" selection-end="240" vertical-scroll-proportion="-3.125" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/db/seeds.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="17" column="46" selection-start="705" selection-end="705" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
+        <state line="17" column="46" selection-start="705" selection-end="705" vertical-scroll-proportion="0.0" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/config/mails_templates/confirmation_instructions.html.erb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="63" vertical-scroll-proportion="-0.0">
-          <folding />
-        </state>
+        <state line="0" column="0" selection-start="0" selection-end="63" vertical-scroll-proportion="-0.0" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/config/mails_templates/reset_password.html.erb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="29" selection-start="29" selection-end="29" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
+        <state line="0" column="29" selection-start="29" selection-end="29" vertical-scroll-proportion="0.0" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/welcome_mailer/welcome_email.html.erb">
+    <entry file="file://$PROJECT_DIR$/app/views/templates/index.html.erb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="23" selection-start="0" selection-end="173" vertical-scroll-proportion="-0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/config/initializers/welcome_email.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="8" column="37" selection-start="322" selection-end="322" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/welcome_mailer/reset_password_instructions.html.erb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/templates/edit.html.erb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/templates/_form.html.erb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="14" column="4" selection-start="512" selection-end="512" vertical-scroll-proportion="-8.75">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/controllers/templates_controller.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="38" column="45" selection-start="774" selection-end="774" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/mailers/welcome_mailer.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="8" column="52" selection-start="366" selection-end="366" vertical-scroll-proportion="0.0">
+        <state line="1" column="3" selection-start="30" selection-end="30" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
@@ -971,9 +934,58 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/templates/index.html.erb">
+    <entry file="file://$PROJECT_DIR$/config/initializers/welcome_email.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="27" column="8" selection-start="1074" selection-end="1074" vertical-scroll-proportion="0.47147846">
+        <state line="8" column="32" selection-start="317" selection-end="317" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/views/templates/_form.html.erb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="18" column="58" selection-start="716" selection-end="716" vertical-scroll-proportion="-11.25">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/controllers/templates_controller.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="79" column="4" selection-start="2019" selection-end="2019" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/views/welcome_mailer/welcome_email.html.erb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="2" column="42" selection-start="173" selection-end="173" vertical-scroll-proportion="-1.25">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/helpers/templates_helper.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="2" column="0" selection-start="24" selection-end="24" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/views/templates/edit.html.erb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="10" column="0" selection-start="218" selection-end="218" vertical-scroll-proportion="-6.25">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/views/welcome_mailer/reset_password_instructions.html.erb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="23" selection-start="14" selection-end="23" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/mailers/welcome_mailer.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="23" column="13" selection-start="767" selection-end="767" vertical-scroll-proportion="0.39071348">
           <folding />
         </state>
       </provider>

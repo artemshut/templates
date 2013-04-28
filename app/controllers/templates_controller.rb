@@ -1,7 +1,6 @@
 class TemplatesController < ApplicationController
   # GET /templates
   # GET /templates.json
-
   def index
     @templates = Template.all
     respond_to do |format|
@@ -59,7 +58,6 @@ class TemplatesController < ApplicationController
   # PUT /templates/1.json
   def update
     @template = Template.find(params[:id])
-
     respond_to do |format|
       if @template.update_attributes(params[:template])
         format.html { redirect_to @template, notice: 'Template was successfully updated.' }
@@ -76,7 +74,6 @@ class TemplatesController < ApplicationController
   def destroy
     @template = Template.find(params[:id])
     @template.destroy
-
     respond_to do |format|
       format.html { redirect_to templates_url }
       format.json { head :no_content }
