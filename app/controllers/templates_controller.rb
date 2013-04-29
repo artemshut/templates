@@ -1,4 +1,4 @@
-class TemplatesController < ApplicationController
+class TemplatesController < InheritedResources::Base
   # GET /templates
   # GET /templates.json
   def index

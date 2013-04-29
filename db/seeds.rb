@@ -6,10 +6,11 @@
 #   cities = City.create([{ name: 'Chicago' }, { name: 'Copenhagen' }])
 #   Mayor.create(name: 'Emanuel', city: cities.first)
 
+
   def confirmation_mail
       if Template.find_by_name('Mail confirmation').nil?
-        content =  File.read('config/mails_templates/confirmation_instructions.html.erb')
-        confirmation = Template.create([{name: 'Mail confirmation',  content: content}])
+        content_confirmation =  File.read('config/mails_templates/confirmation_instructions.html.erb')
+        Template.create([{name: 'Mail confirmation',  content: content_confirmation}])
       else
       end
   end
@@ -17,10 +18,10 @@
   def reset_password_email
       if Template.find_by_name('Reset password').nil?
         content_reset =  File.read('config/mails_templates/reset_password.html.erb')
-        reset = Template.create([{name: 'Reset password',  content: content_reset}])
+        Template.create([{name: 'Reset password',  content: content_reset}])
        else
       end
   end
 
-  reset_password_email
-  confirmation_mail
+confirmation_mail
+reset_password_email

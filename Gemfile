@@ -21,6 +21,7 @@ group :assets do
   gem 'therubyracer'
   gem 'RedCloth'
   gem 'liquid'
+  gem 'inherited_resources'
 
 
   # See https://github.com/sstephenson/execjs#readme for more supported runtimes
