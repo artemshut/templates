@@ -77,6 +77,7 @@ class TemplatesController < InheritedResources::Base
     respond_to do |format|
       format.html { redirect_to templates_url }
       format.json { head :no_content }
+      format.js
     end
   end
 end

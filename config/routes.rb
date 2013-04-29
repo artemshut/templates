@@ -1,6 +1,9 @@
 Templates::Application.routes.draw do
 
 
+  resources :posts
+
+
   resources :templates
 
   devise_for :users
