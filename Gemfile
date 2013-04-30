@@ -22,6 +22,9 @@ group :assets do
   gem 'RedCloth'
   gem 'liquid'
   gem 'inherited_resources'
+  gem 'cancan'
+  gem 'acts_as_commentable'
+
 
 
   # See https://github.com/sstephenson/execjs#readme for more supported runtimes
