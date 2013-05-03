@@ -24,7 +24,11 @@ group :assets do
   gem 'inherited_resources'
   gem 'cancan'
   gem 'acts_as_commentable'
-
+  gem 'ancestry'
+  gem 'nifty-generators'
+  gem 'sunspot_rails'
+  gem 'jquery-fileupload-rails'
+  gem 'paperclip'
 
 
   # See https://github.com/sstephenson/execjs#readme for more supported runtimes
@@ -32,6 +36,11 @@ group :assets do
 
   gem 'uglifier', '>= 1.0.3'
 end
+
+group :development do
+  gem 'sunspot_solr'
+end
+
 
 gem 'jquery-rails'
 

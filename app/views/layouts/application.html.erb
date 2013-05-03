@@ -33,6 +33,11 @@
 
               <li><%= link_to "Sign in", new_user_session_path %></li>
           <% end %>
+         <li> <%= form_tag posts_path, :method => :get do %>
+              <p>
+                <%= text_field_tag :search, params[:search] %>
+                <%= submit_tag "Search", :name => nil %>    </p>
+          <% end %></li>
         </ul>
       </div>
     </div>

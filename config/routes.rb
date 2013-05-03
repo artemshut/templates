@@ -2,7 +2,14 @@ Templates::Application.routes.draw do
 
 
 
-  resources :posts
+
+
+  resources :posts do
+    resources :comments, :avatars
+
+  end
+
+
 
 
   resources :templates
@@ -13,8 +20,8 @@ Templates::Application.routes.draw do
     root to: "templates#index"
   end
 
-
-
+  match "/posts/add_new_comment" => "posts#add_new_comment", :as => "add_new_comment_to_posts", :via => [:post]
+#  match "/layouts/home_page", as: "home_page"
 
 
   # The priority is based upon order of creation:

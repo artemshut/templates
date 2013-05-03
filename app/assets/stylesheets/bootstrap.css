@@ -167,6 +167,13 @@ input[type="search"]::-webkit-search-cancel-button {
 textarea {
   overflow: auto;
   vertical-align: top;
+    width: 280px;
+    min-width:280px;
+    max-height:280px;
+
+    height:200px;
+    min-height:200px;
+    max-height:200px;
 }
 
 @media print {
@@ -5588,6 +5595,7 @@ a.thumbnail:focus {
   overflow: hidden;
   *overflow: visible;
   zoom: 1;
+  margin-top: 100px;
 }
 
 .media,

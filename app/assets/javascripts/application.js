@@ -12,6 +12,9 @@
 //
 //= require ckeditor/init
 //= require jquery
+//= require jquery-fileupload
 //= require jquery_ujs
 //= require twitter/bootstrap
 //= require_tree .
+
+
