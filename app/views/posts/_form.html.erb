@@ -1,0 +1,25 @@
+<%= form_for @post, :html => { :class => 'form-horizontal', multipart: true } do |f| %>
+  <div class="control-group">
+    <%= f.label :title, :class => 'control-label' %>
+    <div class="controls">
+      <%= f.text_field :title, :class => 'text_field' %>
+    </div>
+  </div>
+    <div class="control-group">
+      <%= f.label :content, :class => 'control-label' %>
+      <div class="controls">
+        <%= f.cktext_area :content, :as => :ckeditor, :input_html => { :ckeditor => {:toolbar => 'Full'} } %>
+      </div>
+      <div class="controls">
+        <%= f.label :featured %>
+        <%= f.check_box :featured %>
+      </div>
+    </div>
+    <div class="controls">
+    <%= fields_for @post.avatar do |p| %>
+        Upload image: <%= p.file_field :avatar %>
+    <% end %>
+
+    <%= f.submit "Save" %>
+   </div>
+<% end %>

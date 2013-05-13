@@ -1,0 +1,19 @@
+<%- model_class = Post -%>
+<div class="page-header">
+  <h1><%=t '.title', :default => model_class.model_name.human %></h1>
+</div>
+<dl class="dl-horizontal">
+  <table>
+    <tbody>
+ <dd> <%= image_tag @post.avatar.avatar :medium %></dd>
+  <dd><h4><%= @post.title %></h4></dd>
+
+  <dd><%= raw @post.content %></dd>
+    </tbody>
+  </table>
+  <div id='com'>
+    <%= render @post.comments %>
+
+  </div>
+  <%= render "comments/form" %>
+</dl>

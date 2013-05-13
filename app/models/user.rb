@@ -2,7 +2,6 @@ class User < ActiveRecord::Base
   # Include default devise modules. Others available are:
   # :token_authenticatable, :confirmable,
   # :lockable, :timeoutable and :omniauthable
-
   devise :database_authenticatable, :registerable,
          :recoverable, :rememberable, :trackable, :validatable #:confirmable
 
@@ -10,7 +9,10 @@ class User < ActiveRecord::Base
 
   has_many :posts,  dependent: :destroy
 
-  scope :with_role, lambda { |role| {:conditions => "roles_mask & #{2**ROLES.index(role.to_s)} > 0 "} }
+  has_many :comments, dependent: :destroy
+
+
+  scope :with_role, lambda { |role| {conditions: "roles_mask & #{2**ROLES.index(role.to_s)} > 0 "} }
 
   ROLES = %w[admin moderator author]
 
@@ -24,6 +26,10 @@ class User < ActiveRecord::Base
 
   def role?(role)
     roles.include? role.to_s
+  end
+
+  def current_user
+    @current_user ||= User.find(session[:user_id]) if session[:user_id]
   end
 
 end

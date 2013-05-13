@@ -11,7 +11,7 @@
 #
 # It's strongly recommended to check this file into your version control system.
 
-ActiveRecord::Schema.define(:version => 20130502123913) do
+ActiveRecord::Schema.define(:version => 20130507123930) do
 
   create_table "avatars", :force => true do |t|
     t.string   "avatar_file_name"
@@ -26,20 +26,24 @@ ActiveRecord::Schema.define(:version => 20130502123913) do
   add_index "avatars", ["post_id"], :name => "index_avatars_on_post_id"
 
   create_table "comments", :force => true do |t|
-    t.string   "commenter"
     t.text     "body"
     t.integer  "post_id"
     t.datetime "created_at", :null => false
     t.datetime "updated_at", :null => false
+    t.integer  "users_id"
+    t.integer  "user_id"
   end
 
   add_index "comments", ["post_id"], :name => "index_comments_on_post_id"
+  add_index "comments", ["user_id"], :name => "index_comments_on_user_id"
+  add_index "comments", ["users_id"], :name => "index_comments_on_users_id"
 
   create_table "posts", :force => true do |t|
     t.string   "title"
     t.text     "content"
-    t.datetime "created_at", :null => false
-    t.datetime "updated_at", :null => false
+    t.datetime "created_at",                    :null => false
+    t.datetime "updated_at",                    :null => false
+    t.boolean  "featured",   :default => false
   end
 
   create_table "templates", :force => true do |t|

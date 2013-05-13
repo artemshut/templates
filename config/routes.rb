@@ -17,11 +17,11 @@ Templates::Application.routes.draw do
   devise_for :users
 
   devise_scope :user do
-    root to: "templates#index"
+    root to: "posts#index"
   end
 
   match "/posts/add_new_comment" => "posts#add_new_comment", :as => "add_new_comment_to_posts", :via => [:post]
-#  match "/layouts/home_page", as: "home_page"
+#  match "", as: "home_page"
 
 
   # The priority is based upon order of creation:

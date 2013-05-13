@@ -45,7 +45,7 @@ test:
   database: templates_test
   pool: 5
   host: localhost
-  username: templates
+  username: postgres
   password: abkfnjdf6
 
 production:

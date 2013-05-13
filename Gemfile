@@ -29,8 +29,12 @@ group :assets do
   gem 'sunspot_rails'
   gem 'jquery-fileupload-rails'
   gem 'paperclip'
-
-
+  gem 'kaminari'
+  gem 'will_paginate', '~> 3.0'
+  gem 'populator'
+  gem 'faker'
+  gem 'dynamic_form'
+  gem 'will_paginate-bootstrap'
   # See https://github.com/sstephenson/execjs#readme for more supported runtimes
   # gem 'therubyracer', :platforms => :ruby
 
@@ -41,6 +45,9 @@ group :development do
   gem 'sunspot_solr'
 end
 
+group :test, :development do
+  gem 'rspec-rails'
+end
 
 gem 'jquery-rails'
 
